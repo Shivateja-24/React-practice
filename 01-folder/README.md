@@ -65,7 +65,10 @@ This project exists to:
 The project is intentionally kept minimal and focused.
 
 ---
+## Screenshot (Output)
+<img width="1885" height="859" alt="image" src="https://github.com/user-attachments/assets/f9ae6dc8-2fa0-416e-8dc5-5fd27c937ac3" />
 
+---
 ## Possible Improvements
 
 - Move job data to a separate file or API
