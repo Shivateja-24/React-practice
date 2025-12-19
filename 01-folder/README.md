@@ -1,16 +1,82 @@
-# React + Vite
+# Job Listings UI (React Practice)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small React practice project focused on building a card-based UI using fundamental React concepts.
+The project is intentionally simple and meant to demonstrate hands-on practice rather than a production-ready application.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What This Project Does
 
-## React Compiler
+- Displays a list of job postings as individual cards
+- Each card shows:
+  - Company logo (icon-based)
+  - Company name
+  - Job role
+  - Employment type and experience level
+  - Pay rate
+  - Location
+- Cards are rendered dynamically from an array of data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Concepts Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was built to practice and reinforce:
+
+- React functional components
+- JSX syntax
+- Passing data via props
+- Destructuring props inside components
+- Rendering lists using the map method
+- Using stable key values while rendering lists
+- Understanding implicit vs explicit returns in arrow functions
+- Basic component composition
+- Debugging common React rendering issues
+
+---
+
+## Logos and Assets
+
+- Company logos are added manually using public image URLs
+- Icon or symbol-style logos are preferred for a clean UI
+- No paid or token-based logo APIs are used
+
+Logos are included only for UI demonstration purposes.
+
+---
+
+## How to Run the Project
+
+npm install
+npm run dev
+
+Open the local development URL shown in the terminal.
+
+---
+
+## Purpose of This Project
+
+This project exists to:
+
+- Practice core React concepts through a simple UI
+- Improve confidence with component-based design
+- Serve as visible proof of consistent learning and practice
+
+The project is intentionally kept minimal and focused.
+
+---
+
+## Possible Improvements
+
+- Move job data to a separate file or API
+- Add filters such as full-time or part-time
+- Add hover effects and animations
+- Improve responsiveness
+- Add dark or light mode
+
+---
+
+## Note
+
+This is a learning-focused project.
+Code and structure are expected to evolve as more concepts are practiced.
